@@ -31,7 +31,7 @@ header{
 
 .whats-link{
     position: fixed;
-    bottom: 50px;
+    bottom: 60px;
     right: 50px;
 }
 
@@ -39,3 +39,49 @@ header{
     width: 60px;
 }
 
+.cart-container{
+    border-color: pink;
+    position: relative;
+}
+
+.cart-container span {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 0.5px 3px;
+    color: aliceblue;
+}
+
+.menu-extra{
+    position: relative;
+}
+
+
+.menu-dropdown{
+    width: 100px;
+    height: 200px;
+    position: fixed;
+    background: rgb(44, 44, 44);
+    font-size: 12px;
+    padding: 10px 5px;
+    position: absolute;
+    top: 100%;
+    left: 20;
+    visibility: hidden;
+    display: none;
+    flex-direction: ;
+    align-items: flex-end;
+
+}
+
+.menu-extra:hover .menu-dropdown{
+  visibility: visible;
+}
+
+.menu-dropdown a{
+    color: aliceblue;
+    text-decoration: none;
+}
