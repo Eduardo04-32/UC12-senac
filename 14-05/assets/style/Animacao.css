@@ -1,0 +1,114 @@
+/* button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+button:hover{
+    background-color: #ff5050;
+    border-radius: 5px;
+    transform: translateY(10px);
+} */
+/* 
+@keyframes FadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in{
+    animation: FadeIn 2s ease;
+}
+
+
+@keyframes fadeOut {
+    from { opacity: 1;}
+    to { opacity: 0;}
+}
+
+.fade-out {
+    animation: fadeOut 2s ease;
+}
+
+@keyframes box {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(100%); opacity: 0; }
+}
+
+.box {
+  animation: box 3s ease-in forwards;
+}
+
+@keyframes zoomIn {
+    from {transform: scale(0.5);}
+    to { transform: scale(1);}
+}
+
+.zoom-in {
+    background-color: blue;
+    width: 50px;
+    animation: zoomIn 0.6s ease;
+}
+
+@keyframes pulser {
+    from {transform: scale(0.5);}
+    to { transform: scale(1);}
+}
+
+.pulser {
+    background-color: blue;
+    width: 50px;
+    animation: zoomIn 0.6s ease;
+}
+
+
+@keyframes girar {
+    from {transform: scale(0.5);}
+    to { transform: scale(1);}
+}
+
+.girar {
+    background-color: blue;
+    width: 50px;
+    animation: zoomIn 0.6s ease;
+}
+
+ */
+
+ 
+/*
+PAGINA
+
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.box {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.box.visible {
+    animation: slideIn 2s ease forwards;
+} */
+
+
+
+body{
+    background-color: black;
+}
+
+div{
+    
+}

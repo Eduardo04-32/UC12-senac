@@ -24,12 +24,53 @@
     display: flex;
     align-items: center;
     padding: 50px;
+    position: relative;
+    overflow: hidden;
 }
+
+.video{
+    display:flex;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    transform: scale(150%);
+    opacity: 0;
+    transition: all 3s ease;
+    box-shadow: inset 0 0 60px black;
+    filter: contrast(1.1) brightness(1.1) saturate(1.2);
+}
+.video:hover{
+    animation: video 2s forwards;
+    animation-delay: 5s;
+     transition: all 3s ease;
+}
+@keyframes video {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
 
 .apresenta {
     justify-content: center;
     color: aliceblue;
+    z-index: 10;
+    animation: none;
+    display: flex;
 
+}
+@keyframes sumir {
+    0%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        display: none;  
+    }
 }
 
 header {
@@ -65,10 +106,10 @@ header img {
     cursor: pointer; ;
 }
 
-.pelicula:hover{
-    transform: scale(1.1);
+    .pelicula:hover{
+        transform: scale(1.1);
 
-}
+    }
 
 .filmes {
     justify-content: center;
